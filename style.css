@@ -21,9 +21,6 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
 }
 
 .filho {
@@ -31,18 +28,24 @@ h1 {
     height: 80px;
     border-radius: 50px;
     text-align: center;
+    
 }
 
 .cor1 {
     background-color: #ED145B;
+    justify-content: flex;
+    justify-content: baseline;
 }
 
 .cor2 {
-    background-color: #63B1BC;
+    background-color: #EFB661;
+    margin-top: 159px;
 }
 
 .cor3 {
-    background-color: #EFB661;
+    background-color: #63B1BC;
+    margin-top: 270px;
+    margin-left: 19px;
 }
 
 .instrucoes {
@@ -57,6 +60,14 @@ h1 {
     margin-top: 50px;
     padding-top: 20px;
     text-align: center;
+}
+
+img {
+    width: 20%;
+}
+
+.caixafilhocor1{
+    -ms-flex-align: center  ;
 }
 
 img {
